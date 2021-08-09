@@ -99,8 +99,7 @@ public class BoardMouseListener implements MouseListener {
         }
         @Override
         public void mouseClicked(MouseEvent e){
-            //save where I clicked
-            // this is going to pick up the piece and moving it.
+
 
         }
 
