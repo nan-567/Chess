@@ -50,7 +50,7 @@ public class BoardMouseListener implements MouseListener {
         //move is valid, so move piece
         Chess.position[endx][endy] = Chess.position[startx][starty];
         Chess.position[startx][starty] = null;
-        Chess.board.repaint();//Here we are redrawing the gameboard and all of the pieces
+        Chess.board.repaint();//Here we are redrawing the GameBoard and all of the pieces
         //computers move
         Random Computerplayer = new Random();
 
