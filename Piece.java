@@ -14,7 +14,7 @@ public abstract class Piece {
     //public abstract boolean canMove(int startx, int starty, int endx, int endy);
 
     public void drawPiece(int x, int y, Graphics g) {
-        g.drawImage(image.getImage(), x * 44, y * 44, null);// x and y are the height and the weight
+        g.drawImage(image.getImage(), x * 44, y * 44, null);// x and y are the height and the width.
 //
 
     }
