@@ -20,7 +20,7 @@ public class BoardMouseListener implements MouseListener {
 
     @Override
     public void mouseReleased(MouseEvent e) {
-        System.out.println("mouse release");
+        System.out.println("Mouse release");
         int mousex = e.getX();
         int mousey = e.getY();
         endx = mousex / 44;//converting from pixels to blocks
