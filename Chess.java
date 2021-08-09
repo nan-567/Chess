@@ -51,7 +51,7 @@ public class Chess
             JFrame window;
             window = new JFrame("Chess");
             // 10, 40 makes the windows slightly bigger to adjust for the title bar, borders
-            window.setSize(WIDTH+1 ,HEIGHT+40);
+            window.setSize(WIDTH+1 ,HEIGHT+30);
             // Here on line 56 we are terminating the program by closing the window, we do that by setting the default close operation to Exit on Close.
             window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             //making a board component object and on line 62 we add it to the window which is window.add(board)
